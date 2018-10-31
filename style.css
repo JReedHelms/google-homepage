@@ -1,0 +1,89 @@
+body {
+    font-family: Arial;
+}
+header {
+    display: grid;
+    grid-template-columns: 50px 50px 1fr 50px 50px 50px 65px;
+    font-size: small;
+    margin: 10px 0 100px 0;
+    padding: 10px;
+    color: rgba(0,0,0,0.80);
+}
+a, .box1, .box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7 {
+    padding: 9px;
+    color:white;
+    background-color:#4285f4;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.homepic {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 35px;
+}
+.search {
+    text-align:center;
+    margin-top:2rem;
+    position: relative;
+    top: 30px;
+}
+input {
+    border:0;
+    height:2.9em;
+    width:40em;
+    font-size:14px;
+    box-shadow:0 1px 5px 0 rgba(0,0,0,.25);
+    outline: none;
+}
+.buttons p {
+    text-align: center;
+    display: inline-block;
+    padding: .8em 1em .8em 1em;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-size: small;
+    color:#757575;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 8em 9em 1fr;
+    grid-column-gap: 10px;
+    color:#757575;
+    position: relative;
+    top: 43px;
+}
+footer {
+    color:#757575;
+    background-color: #f2f2f2;
+    display: grid;
+    position:absolute;
+    bottom:0;
+    right: 0;
+    left: 0;
+    grid-template-columns: 100px 50px 1fr 80px 70px 70px;
+    height: 3em;
+    font-size: small;
+}
+a {
+    color:rgba(0,0,0,0.80);
+    text-decoration: none;
+}
+.box1 a:hover, .box1 a:visited { 
+    color:rgba(0,0,0,0.80);
+    text-decoration: underline;
+}
+.foot a {
+    color:#757575;
+    text-decoration: none;
+}
+.foot a:hover, .foot a:visited { 
+    color:#757575;
+    text-decoration: underline;
+}
