@@ -1,1 +1,1 @@
-This is a mock Google homepage!
+This is a mock Google homepage.
